@@ -39,11 +39,13 @@ class GameContainer extends Component {
                 <p>Score: {this.state.score}</p>
                 {this.state.cards.map(card => {
                     return (
-                        <Card id={card.id}
+                        <Card 
                             key={card.id}
+                            id={card.id}
+                            image={card.image}
                             clicked={card.clicked}
                             handleClick={this.handleClick}
-                            letter={card.letter} />
+                         />
                     )
                 }
                 )}

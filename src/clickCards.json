@@ -2,81 +2,97 @@
     {
         "id": 1,
         "letter": "A",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_1.jpg"
     },
     {
         "id": 2,
         "letter": "B",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_2.jpg"
     },
     {
         "id": 3,
         "letter": "C",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_3.jpg"
     },
     {
         "id": 4,
         "letter": "D",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_4.jpg"
     },
     {
         "id": 5,
         "letter": "E",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_5.jpg"
     },
     {
         "id": 6,
         "letter": "F",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_6.jpg"
     },
     {
         "id": 7,
         "letter": "G",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_7.jpg"
     },
     {
         "id": 8,
         "letter": "H",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_8.jpg"
     },
     {
         "id": 9,
         "letter": "I",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_9.jpg"
     },
     {
         "id": 10,
         "letter": "J",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_10.jpg"
     },
     {
         "id": 11,
         "letter": "K",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_11.jpg"
     },
     {
         "id": 12,
         "letter": "L",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_12.jpg"
     },
     {
         "id": 13,
         "letter": "M",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_13.jpg"
     },
     {
         "id": 14,
         "letter": "N",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_14.jpg"
     },
     {
         "id": 15,
         "letter": "O",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_15.jpg"
     },
     {
         "id": 16,
         "letter": "P",
-        "clicked": false
+        "clicked": false,
+        "image" : "/assets/images/dogpic_16.jpg"
     }
 ]

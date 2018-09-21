@@ -4,7 +4,7 @@ import './Card.css';
 const Card = props => (
         <div onClick= {() => props.handleClick(props.id)}
         className='card' key={props.id}>
-            {props.letter}
+            <img src={props.image} />
         </div>
     );
 

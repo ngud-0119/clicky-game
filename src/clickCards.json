@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "letter": "A",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "letter": "B",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "letter": "C",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "letter": "D",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "letter": "E",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "letter": "F",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "letter": "G",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "letter": "H",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "letter": "I",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "letter": "J",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "letter": "K",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "letter": "L",
+        "clicked": false
+    },
+    {
+        "id": 13,
+        "letter": "M",
+        "clicked": false
+    },
+    {
+        "id": 14,
+        "letter": "N",
+        "clicked": false
+    },
+    {
+        "id": 15,
+        "letter": "O",
+        "clicked": false
+    },
+    {
+        "id": 16,
+        "letter": "P",
+        "clicked": false
+    }
+]

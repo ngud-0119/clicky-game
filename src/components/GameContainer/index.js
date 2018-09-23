@@ -10,7 +10,14 @@ class GameContainer extends Component {
         cards: clickCards,
         score: 0,
         topScore: 0,
-        clicked: []
+        clicked: [],
+        progressMessage: ""
+    }
+
+    componentDidMount(){
+        this.setState({
+            progressMessage: "Good Luck!"
+        })
     }
 
     shuffleCards = cards => {
@@ -36,7 +43,8 @@ class GameContainer extends Component {
 
         this.setState({
             cards: this.shuffleCards(newCards),
-            score: newScore
+            score: newScore,
+            progressMessage: "Great job! Keep going!"
         });
 
     }
@@ -45,7 +53,8 @@ class GameContainer extends Component {
         this.setState({
             cards: clickCards,
             score: 0,
-            clicked: []
+            clicked: [],
+            progressMessage: "You already clicked that! Try Again!"
         });
     }
 
@@ -54,18 +63,28 @@ class GameContainer extends Component {
             this.handleIncrement();
             this.setState({ clicked: this.state.clicked.concat(id) });
         } else {
-            this.handleReset();
-        }
+            if (this.state.topScore === 10) {
+                prompt("You win! Play again!");
+                this.handleReset();
+            } else {
+                this.handleReset();
+            };
+        };
     };
 
     render() {
         return (
             <div>
-                <Jumbotron />
-                <ProgressBar 
+                <Jumbotron
                     score={this.state.score}
                     topScore={this.state.topScore}
-                    />
+                    progressMessage={this.state.progressMessage}>
+                <ProgressBar
+                    score={this.state.score}
+                    topScore={this.state.topScore}
+                    progressMessage={this.state.progressMessage}
+                />
+                </Jumbotron>
                 <div className="container">
                     {this.state.cards.map(card => {
                         return (

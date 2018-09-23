@@ -30,19 +30,13 @@ class GameContainer extends Component {
 
     handleIncrement = id => {
         const newScore = this.state.score + 1;
-        const newCards = this.state.cards.map(card => {
-            if (card.id === id) {
-                card.clicked = true;
-            }
-            return card;
-        });
 
         if (newScore >= this.state.topScore) {
             this.setState({ topScore: newScore });
         }
 
         this.setState({
-            cards: this.shuffleCards(newCards),
+            cards: this.shuffleCards(this.state.cards),
             score: newScore,
             progressMessage: "Great job! Keep going!"
         });

@@ -8,6 +8,10 @@ h1 {
     font-family: 'Notable', sans-serif;
 }
 
-p { 
+.jumboHeading {
     color: #466060;
+}
+
+nav {
+    color: whitesmoke;
 }

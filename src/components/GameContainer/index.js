@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import clickCards from '../../clickCards.json';
 import Card from '../Card';
 import Jumbotron from '../Jumbotron';
+import ProgressBar from '../ProgressBar';
 
 class GameContainer extends Component {
 
@@ -61,8 +62,10 @@ class GameContainer extends Component {
         return (
             <div>
                 <Jumbotron />
-                <p>Score: {this.state.score}</p>
-                <p>Top Score: {this.state.topScore}</p>
+                <ProgressBar 
+                    score={this.state.score}
+                    topScore={this.state.topScore}
+                    />
                 <div className="container">
                     {this.state.cards.map(card => {
                         return (
@@ -70,6 +73,7 @@ class GameContainer extends Component {
                                 key={card.id}
                                 id={card.id}
                                 image={card.image}
+                                letter={card.letter}
                                 clicked={card.clicked}
                                 handleGame={this.handleGame}
                             />

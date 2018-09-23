@@ -3,60 +3,60 @@
         "id": 1,
         "letter": "A",
         "clicked": false,
-        "image" : "../assets/dogpic_1.jpg"
+        "image" : "assets/dogpic_1.jpg"
     },
     {
         "id": 2,
         "letter": "C",
         "clicked": false,
-        "image" : "../assets/dogpic_3.jpg"
+        "image" : "assets/dogpic_3.jpg"
     },
     {
         "id": 3,
         "letter": "D",
         "clicked": false,
-        "image" : "../assets/dogpic_4.jpg"
+        "image" : "assets/dogpic_4.jpg"
     },
     {
         "id": 4,
         "letter": "F",
         "clicked": false,
-        "image" : "../assets/dogpic_6.jpg"
+        "image" : "assets/dogpic_6.jpg"
     },
     {
         "id": 5,
         "letter": "G",
         "clicked": false,
-        "image" : "../assets/dogpic_7.jpg"
+        "image" : "assets/dogpic_7.jpg"
     },
     {
         "id": 7,
         "letter": "K",
         "clicked": false,
-        "image" : "../assets/dogpic_11.jpg"
+        "image" : "assets/dogpic_11.jpg"
     },
     {
         "id": 8,
         "letter": "L",
         "clicked": false,
-        "image" : "../assets/dogpic_12.jpg"
+        "image" : "assets/dogpic_12.jpg"
     },
     {
         "id": 9,
         "letter": "M",
         "clicked": false,
-        "image" : "../assets/dogpic_13.jpg"
+        "image" : "assets/dogpic_13.jpg"
     },
     {
         "id": 10,
         "letter": "N",
         "clicked": false,
-        "image" : "../assets/dogpic_14.jpg"
+        "image" : "assets/dogpic_14.jpg"
     },
     {
         "id": 11,
         "letter": "O",
         "clicked": false,
-        "image" : "../assets/dogpic_15.jpg"
+        "image" : "assets/dogpic_15.jpg"
     }
 ]

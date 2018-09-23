@@ -2,9 +2,9 @@ import React from 'react';
 import './Card.css';
 
 const Card = props => (
-        <div onClick= {() => props.handleIncrement(props.id)}
+        <div onClick= {() => props.handleGame(props.id)}
         className='card' key={props.id}>
-            <img src={props.image} />
+            <img alt={props.id} src={props.image} />
         </div>
     );
 

@@ -9,7 +9,17 @@ class GameContainer extends Component {
         score: 0
     }
 
-    handleClick = id => {
+
+
+    shuffleCards = cards => {
+        for (let i = cards.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [cards[i], cards[j]] = [cards[j], cards[i]];
+        }
+        return cards;
+    }
+
+    handleIncrement = id => {
         const newCards = this.state.cards.map(card => {
             if (card.id === id){
                 card.clicked = true;
@@ -25,14 +35,6 @@ class GameContainer extends Component {
         console.log(newCards);
     }
 
-    shuffleCards = cards => {
-        for (let i = cards.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [cards[i], cards[j]] = [cards[j], cards[i]];
-        }
-        return cards;
-    }
-
     render() {
         return (
             <div>
@@ -44,7 +46,7 @@ class GameContainer extends Component {
                             id={card.id}
                             image={card.image}
                             clicked={card.clicked}
-                            handleClick={this.handleClick}
+                            handleIncrement={this.handleIncrement}
                          />
                     )
                 }

@@ -80,9 +80,6 @@ class GameContainer extends Component {
                     topScore={this.state.topScore}
                     progressMessage={this.state.progressMessage}>
                 <ProgressBar
-                    score={this.state.score}
-                    topScore={this.state.topScore}
-                    progressMessage={this.state.progressMessage}
                 />
                 </Jumbotron>
                 <div className="container">

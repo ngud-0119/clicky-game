@@ -27,7 +27,7 @@ class GameContainer extends Component {
         return cards;
     }
 
-    handleIncrement = id => {
+    handleIncrement = () => {
         const newScore = this.state.score + 1;
 
         if (newScore >= this.state.topScore) {
@@ -51,7 +51,7 @@ class GameContainer extends Component {
         });
     }
 
-    handleGame = (id) => {
+    handleGame = id => {
         if (this.state.clicked.indexOf(id) === -1) {
             this.handleIncrement();
             this.setState({ clicked: this.state.clicked.concat(id) });
@@ -71,8 +71,8 @@ class GameContainer extends Component {
                 <Jumbotron
                     score={this.state.score}
                     topScore={this.state.topScore}
-                    progressMessage={this.state.progressMessage}>
-                </Jumbotron>
+                    progressMessage={this.state.progressMessage}
+                />
                 <div className="container">
                     {this.state.cards.map(card => {
                         return (

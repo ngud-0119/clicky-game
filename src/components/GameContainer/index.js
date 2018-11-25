@@ -13,7 +13,7 @@ class GameContainer extends Component {
         progressMessage: ""
     }
 
-    componentDidMount(){
+    componentDidMount() {
         this.setState({
             progressMessage: "Good Luck!"
         })
